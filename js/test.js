@@ -1,16 +1,3 @@
-/*
- * Primeiramente me desculpem pelos comentarios e
- * erros de degitação neste arquivo, eu não uso
- * muito o corretor e esses comentarios são desnecessarios.
- * Se alguem quiser me ajudar fiquem a vontade.
-*/
-
-
-/*
- * Todo o texto  com as informações de instalação e
- * como usar devem ser inseridas nesse objeto como
- * no exemplo do editor Nano
-*/
 const texts = {
     "select": {
         "name": "Escolha uma função",
@@ -118,15 +105,7 @@ const texts = {
     }
 };
 
-/*
- * Essa parte do código tem o dever de organizar
- * toda a página com as informações acima
-*/
 window.onload = function(){
-    /*
-     * Obtem os elementos do DOM para poder
-     * manipular da forma correta
-    */
     let function_list = document.getElementById("function");
     let div_text = document.getElementById("text");
     let copyright = new Date();
@@ -136,12 +115,8 @@ window.onload = function(){
     for (key in texts) {
         function_list.innerHTML += `<option value="${key}">${texts[key]["name"]}</option>`;
     }
-    // Define as informações padrões, acho que isso
-    // deveria ter sido melhor organizado de alguma forma
     div_text.innerHTML = texts.select.text;
-    // Se alguem reclamar desse "T.S A.9" eu removo e coloco outro melhor
     document.getElementById("copyright").innerHTML = `© SA-MODS - ${copyright.getFullYear()}`;
-    // Atualiza as informações de acordo com a opção selecionada
     function_list.onchange = function() {
         let info = texts[this.value];
         div_text.innerHTML = info.text;
