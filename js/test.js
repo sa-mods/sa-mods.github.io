@@ -97,7 +97,7 @@ const texts = {
     },
     "fazer download de status": {   
         "name": "fazer download de status",
-        "text": "Essa função permite o usuário fazer download de qualquer status de qualquer pessoa. Para usá-la basta clicar em um status, clicar no 3 pontinhos no canto superior direito, e clicar em download desse status."
+        "text": "Essa função permite o usuário fazer download de qualquer status de qualquer pessoa. Para usá-la basta clicar em um status, clicar no 3 pontinhos no canto superior direito, e clicar em Baixar este status 🤔."
     },
     "Resetar configurações": {   
         "name": "Resetar configurações",
