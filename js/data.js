@@ -9,10 +9,10 @@ const texts = {
     },
         "conversa direta": {     
         "name": "conversa direta",
-        "text": "Permite que o usuário possa conversar diretamente com o contato sem a necessidade de salvar o número. Para usá-la clique nos 3 pontinhos no canto superior direito e clique em new chat."
+        "text": "Permite que o usuário possa conversar diretamente com o contato sem a necessidade de salvar o número. Para usá-la clique nos 3 pontinhos no canto superior direito e clique em Conversa direta."
     },
         "limpar cache": {     
-        "name": "clear cache",
+        "name": "limpar cache",
         "text": "A função limpar cache foi desenvolvida para limpar arquivos desnecessários do whatsapp. Para usá-la você precisa ir em privacidade e clicar em limpar cache!"
     },
         "contador de mensagens": {     
