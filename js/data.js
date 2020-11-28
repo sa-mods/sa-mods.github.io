@@ -85,7 +85,7 @@ const texts = {
     },
     "ocultar segundo tick": {   
         "name": "ocultar segundo tick",
-        "text": "Permite não dizer ao remetente da mensagem que você receu a mesma. Para abilitá-la vá em privacidade, opções de privacidade, ocultar segundo tick."
+        "text": "Permite não dizer ao remetente da mensagem que você recebeu a mesma. Para abilitá-la vá em privacidade, opções de privacidade, ocultar segundo tick."
     },
     "anti-deletar de mensagens": {   
         "name": "anti-deletar de mensagens",
