@@ -17,7 +17,7 @@ const texts = {
     },
         "contador de mensagens": {     
         "name": "contador de mensagens!",
-        "text": "O contador de mensagens é uma função padrão adicionada nos chats em grupo do whatsapp que permite saber quantas mensagens cada usuário enviou. Para desfrutar dessa função, entre em algum grupo vá nos dados do grupo e veja na lista de participantes no canto direito de cada um a quantidade de mensagens enviadas por eles"
+        "text": "O contador de mensagens é uma função adicionada como padrão nos chats em grupo do whatsapp que permite saber quantas mensagens cada usuário enviou. Para desfrutar dessa função, entre em algum grupo vá nos dados do grupo e veja na lista de participantes no canto direito de cada um a quantidade de mensagens enviadas por eles"
     },
         "modo avião": {     
         "name": "modo avião",
@@ -63,8 +63,8 @@ const texts = {
         "name": "Bloqueio por impressão digital",
         "text": "O Bloqueio por impressão digital ou fingerprint é uma função já existente no whatsapp porém agora incorporado na aba de privacidade para facilitar a vida do usuário. O Bloqueio por impressão digital funciona assim como o Bloqueio por pin porém ao invés de um pin numérico ele requer a digital do usuário para autenticação. Para abilitá-lo vá em privacidade Bloqueio por impressão digital."
     },
-    "check update": {   
-        "name": "check update",
+    "checar atualização": {   
+        "name": "checar atualização",
         "text": "A função checar atualização é uma função para informar o usuário sobre novas atualizações disponíveis. Basta o usuário ir em privacidade, opções de privaçidade, checar atualização!",
     },
     "congelar visto por último": {   
@@ -81,7 +81,7 @@ const texts = {
     },
     "ocultar ticks azuis": {   
         "name": "ocultar ticks azuis",
-        "text": "Permite ocultar totalmente o tick azul ainda que o usuário visualize e responda a mensagem, não aparecerá o tick azul para quem enviou. Para abilitála vá em privacidade, opções de privacidade, ocultar ticks azuis."
+        "text": "Permite ocultar totalmente o tick azul, ainda que o usuário visualize e responda a mensagem, não aparecerá o tick azul para quem enviou. Para abilitála vá em privacidade, opções de privacidade, ocultar ticks azuis."
     },
     "ocultar segundo tick": {   
         "name": "ocultar segundo tick",
