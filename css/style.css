@@ -1,0 +1,58 @@
+/*
+ * Desculpem nunca estudei páginas web faço apenas porque gosto
+*/
+a {
+	color:#76ff03;
+	background-color:tranparent;
+	font-size: 20pt;
+	text-align: center;
+}
+auth {
+	color:red;
+}
+p {
+	color:black;
+	text-align: center;
+	text-indent: 2pt; /*ou px */ 
+}
+t1 {
+	font-family:arial;
+	color:teal;
+}
+e {
+	color:#1a237e;
+}
+img {
+	align:center;
+}
+table {
+	border-style:solid;
+	border-color:#0066FF;
+	border-width:2px;
+}   
+	tr td,tr th {
+	border-style:solid;
+	border-color:#0099FF;
+}
+#container {
+	width: 97vw;
+	margin: 2vw auto;
+}
+select {
+	color: red;
+	background-color: None;
+}
+h1,h2,h3,h4 {
+	font-family: 'MR ROBOT', 'Lucida Console';
+	color: teal;
+	background-color: None;
+	text-align: center;
+}
+h5 {
+	font-size: 30pt;
+}    
+body {
+	font-family: Arial;
+	background-color: white;
+	color: black;
+}
