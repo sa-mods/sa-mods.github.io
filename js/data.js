@@ -116,10 +116,10 @@ const sawav2 = {
     },
     "Change background": {   
         "name": "Change background",
-        "texto": "Esta função permite mudar o pkano de fundo da tela inicial, você pode colocar imagens, cor unica, duas ou três cores gradientes, usar somente opacidade ou deixar transparente."
+        "texto": "Esta função permite mudar o plano de fundo da tela inicial, você pode colocar imagens, cor unica, duas ou três cores gradientes, usar somente opacidade ou deixar transparente."
     },
-    "hide m�dia": {   
-        "name": "hide midia",
+    "hide mídia": {   
+        "name": "hide mídia",
         "texto": "Esta função permite esconder novos arquivos baixados da galeria"
     },
     "media settings": {   
