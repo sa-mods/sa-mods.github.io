@@ -45,11 +45,7 @@ const sawav2 = {
     },
     "ocultar segundo tick": {   
         "name": "ocultar segundo tick",
-<<<<<<< HEAD
         "text": "Permite omitir ao remetente da mensagem que você receu a mesma. Para abilitá-la vá em privacidade, opções de privacidade, ocultar segundo tick."
-=======
-        "text": "Permite não dizer ao remetente da mensagem que você recebeu a mesma. Para abilitá-la vá em privacidade, opções de privacidade, ocultar segundo tick."
->>>>>>> 962888fbd6e722bce4f35fe8b3738c9f82f23bae
     },
     "anti-deletar de mensagens": {   
         "name": "anti-deletar de mensagens",
@@ -97,19 +93,11 @@ const sawav2 = {
     },
     "Change background": {   
         "name": "Change background",
-<<<<<<< HEAD
         "text": "Esta função permite mudar o plano de fundo da tela inicial, você pode colocar imagens, cor unica, duas ou três cores gradientes, usar somente opacidade ou deixar transparente."
     },
     "hide m�dia": {   
         "name": "hide midia",
         "text": "Esta função permite esconder novos arquivos baixados da galeria"
-=======
-        "texto": "Esta função permite mudar o plano de fundo da tela inicial, você pode colocar imagens, cor unica, duas ou três cores gradientes, usar somente opacidade ou deixar transparente."
-    },
-    "hide mídia": {   
-        "name": "hide mídia",
-        "texto": "Esta função permite esconder novos arquivos baixados da galeria"
->>>>>>> 962888fbd6e722bce4f35fe8b3738c9f82f23bae
     },
     "media settings": {   
         "name": "media settings",
