@@ -5,18 +5,22 @@ mobileMenu.addEventListener("click", function(){
 	menu.classList.toggle('open')
 })
 function home(){
+        menu.classList.toggle('open')
 	window.open("index.html");
 }
 
 function about(){
+        menu.classList.toggle('open')
 	window.open("about.html");
 }
 
 function about_developer(){
+        menu.classList.toggle('open')
 	window.open("about_developer.html"); 
 }
 
 function contact(){
+        menu.classList.toggle('open')
 	window.open("contato.html");
 }
 
