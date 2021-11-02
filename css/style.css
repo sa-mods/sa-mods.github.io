@@ -57,13 +57,16 @@ header{
 	background-image: url(../img/logo2.png);
 	transition: 3s ease;
 }
-.samods{
-	text-align: center;
+.image{
+  padding-top: 40px;
+  text-align: center;
 }
-#samods{
-	height: 20%;
-	width: 22%;
+#image{
+  height: 10%;
+  width: 25%;
+  border-radius: 100%;
 }
+
 
 ul{
 	display: flex;
@@ -277,4 +280,17 @@ hr {
 	align: center;
 	padding-top: 5px;
 	border-color: white;
+}
+ol li{
+   color: blue;
+}
+span li{
+   padding-left: 30px;
+   color: blue;
+}
+b{
+	color: yellow;
+}
+#title{
+	color: yellow;
 }
