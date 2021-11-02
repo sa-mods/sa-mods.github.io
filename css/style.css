@@ -98,12 +98,6 @@ ul .menu-item {
 	transition: 1s;
 }
 
-.open{
-	transition: 0.5s;
-	transform: translateX(0);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
 .menu-mobile .menu-item{
 	height: 60px;
 	width: 100%;
@@ -131,6 +125,12 @@ ul .menu-item {
 	.mobile-menu{
 		display: block;
 	}
+        
+        .open{
+        	transition: 0.5s;
+	        transform: translateX(0);
+          	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
 }
 
 audio {
