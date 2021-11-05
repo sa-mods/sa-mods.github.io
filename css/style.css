@@ -67,7 +67,6 @@ header{
   border-radius: 100%;
 }
 
-
 ul{
 	display: flex;
 	justify-content: center;
@@ -100,7 +99,6 @@ ul .menu-item {
 	color: white;
 	transition: 1s;
 }
-
 .menu-mobile .menu-item{
 	height: 60px;
 	width: 100%;
@@ -119,6 +117,16 @@ ul .menu-item {
 }
 
 @media (max-width:768px){ /*768*/
+   li {
+   	color: rgb(0, 0, 0, 255);
+   	padding-top: 7px;
+   	padding-left: 12px;
+   }
+   select {
+	  color: red;
+	  text-align: center;
+	  background-color: None;
+   }
 	ul{
 		display: none;
 		align-items: center;
@@ -128,32 +136,145 @@ ul .menu-item {
 	.mobile-menu{
 		display: block;
 	}
-        
-        .open{
-        	transition: 0.5s;
-	        transform: translateX(0);
-          	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        }
+	.open{
+   	transition: 0.5s;
+     transform: translateX(0);
+   	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);	
+   }
+   .form input{
+   	caret-color: #2962FF;
+   	text-indent: 10pt;
+   	border-style: solid;
+   	border-color: #0066FF;
+   	border-width: 1px;	
+   	border-height: 1px;
+   	border-radius: 5px;
+   	line-height: 40px;
+   	width: 97%;
+   }
+   .form .button button {
+   	width: 90px;
+   	height: 30px;
+   	color: white;
+   	border-radius: 8px;
+   	background-color: navy;
+   }
+   .download {
+   	color: white;
+   	align: center;
+   	text-align: center;
+   	border-width: 2px;
+   	border-radius: 7px;
+   	padding-left: 15px;
+   	padding-right: 15px;
+   	padding-top: 4px;
+   	padding-bottom: 4px;
+   	background-color: navy;
+   }
+   .form{
+   	background-color: white;
+   	padding-left: 20px;
+   	padding-right: 10px;
+   }
+   .form textarea {
+   	caret-color: #2962FF;
+   	text-indent: 10pt;
+   	padding-top: 7px;
+   	border-style: solid;
+   	border-color: #0066FF;
+   	border-width: 1px;	
+   	border-height: 1px;
+   	border-radius: 5px;
+   	line-height: 20px;
+   	width: 97%;
+   }
+   label{
+   	padding-top: 25px;
+   	padding-bottom: 10px;
+   }
 }
-
+@media (min-width: 575px){
+   li {
+	  color: rgb(0, 0, 0, 255);
+	  padding-top: 7px;
+	  padding-left: 12px;
+	  font-size: 30px;
+   }
+   select{
+	  color: red;
+	  text-align: center;
+	  background-color: None;
+	  font-size: 30px;
+   }
+   .form{
+   	background-color: white;
+   	padding-left: 40px;
+   	padding-right: 20px;
+   }
+   .form input{
+   	caret-color: #2962FF;
+   	text-indent: 20pt;
+   	font-size: 30px;
+   	border-style: solid;
+   	border-color: #0066FF;
+   	border-width: 1.5px;	
+   	border-height: 1.5px;
+   	border-radius: 10px;
+   	line-height: 70px;
+   	width: 97%;
+   }
+   .form .button {
+	   padding-top: 10px;
+	   background: None;
+	   text-align: center;
+	   text-transform: uppercase;
+	   border-radius: 8px;
+	   cursor: pointer;
+   }
+   .form .button button {
+   	width: 25%;
+   	height: 70px;
+   	color: white;
+   	font-size: 30px;
+   	border-radius: 10px;
+   	background-color: navy;
+   }
+   .download {
+   	color: white;
+    	align: center;
+    	width: 25%;
+    	height: 70px;
+    	font-size: 35px;
+    	text-align: center;
+   	border-radius: 20px;
+   	background-color: navy; /*RGB(0, 0, 255, 255);*/
+   }
+   .form textarea {
+   	caret-color: #2962FF;
+   	font-size: 18px;
+   	text-indent: 20pt;
+   	padding-top: 10px;
+   	border-style: solid;
+   	border-color: #0066FF;
+   	border-width: 1.5px;	
+   	border-height: 1.5px;
+   	border-radius: 10px;
+   	line-height: 50px;
+   	width: 97%;
+   }
+   .menu-item{
+   	font-size: 25px;
+   	margin-left: 2rem;
+   	cursor: pointer;
+   }
+   label{
+   	padding-top: 60px;
+   	padding-bottom: 20px;
+   }
+}
 audio {
-	display: block;
+   	display: block;
 }
-
-.download {
-	color: white;
-	font-size: 18pt;
-	align: center;
-	text-align: center;
-	border-width: 2px;
-	border-radius: 10px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	background-color: navy; /*RGB(0, 0, 255, 255);*/
-}
-
 .form .button {
 	padding-top: 10px;
 	background: None;
@@ -161,13 +282,6 @@ audio {
 	text-transform: uppercase;
 	border-radius: 8px;
 	cursor: pointer;
-}
-.form .button button {
-	width: 90px;
-	height: 30px;
-	color: white;
-	border-radius: 8px;
-	background-color: navy;
 }
 a {
 	color: white;
@@ -182,7 +296,7 @@ code {
 p {
 	color:black;
 	text-align: center;
-	text-indent: 20pt; /*ou px */
+	text-indent: 20pt;
 	padding-right: 30px;
 }
 blockquote {
@@ -190,7 +304,6 @@ blockquote {
 	padding-right: 30px;
 }
 img {
-	/*align:center;*/
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -204,62 +317,19 @@ tr td,tr th {
 	border-style:solid;
 	border-color:#0099FF;
 }
-li {
-	color: rgb(0, 0, 0, 255);
-	padding-top: 7px;
-	padding-left: 12px;
-}
 #container {
 	width: 97vw;
 	margin: 2vw auto;
-}
-select {
-	color: red;
-	text-align: center;
-	background-color: None;
-	font-size: 15px;
 }
 .text{
 	margin: 30px 20px 60px 20px;
 	color: teal;
 	text-align: center;
 }
-.form{
-	background-color: white;
-	padding-left: 20px;
-	padding-right: 10px;
-}
-label{
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
 details {
 	color: teal;
 	background-color: None;
-	text-align:center;
-}
-.form textarea {
-	caret-color: #2962FF;
-	text-indent: 10pt;
-	padding-top: 7px;
-	border-style: solid;
-	border-color: #0066FF;
-	border-width: 1px;	
-	border-height: 1px;
-	border-radius: 5px;
-	line-height: 20px;
-	width: 97%;
-}
-.form input{
-	caret-color: #2962FF;
-	text-indent: 10pt;
-	border-style: solid;
-	border-color: #0066FF;
-	border-width: 1px;	
-	border-height: 1px;
-	border-radius: 5px;
-	line-height: 40px;
-	width: 97%;
+	text-align: center;
 }
 h1,h2,h3,h4 {
 	font-family: 'MR ROBOT', 'Lucida Console';
