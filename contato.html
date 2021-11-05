@@ -23,21 +23,36 @@
        .button{
          	text-align: center;
        }
-       input{
-        	width: 80%;
-        	line-height: 2rem;
-        	border-radius: 20px;
-        	border-color: blue;
-        	border-size: 10px;
-        	margin: 30px;
-        	color: yellow;
-        	background: transparent;
+       @media (max-width: 980px){
+       	
+          input{
+          	width: 60%;
+          	line-height: 2rem;
+          	border-radius: 20px;
+          	border-color: blue;
+          	border-size: 2px;
+          	margin: 30px;
+          	color: yellow;
+          	background: transparent;
+          }
        }
        #copyright{
 	       color: white;
 	       text-align: center;
 	       padding-bottom: 70px;
 	       transform: translateY(100%);
+       }
+       @media (min-width: 575px){
+       	  input{
+        	   width: 60%;
+        	   line-height: 4rem;
+        	   border-radius: 30px;
+        	   border-color: blue;
+        	   font-size: 30px;
+        	   margin: 70px;
+        	   color: yellow;
+        	   background: transparent;   
+        	}
        }
    </style>
 	<header>
