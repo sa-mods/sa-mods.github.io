@@ -171,6 +171,9 @@ ul .menu-item {
    	padding-bottom: 4px;
    	background-color: navy;
    }
+   .download a{
+   	color: white;
+   }
    .form{
    	background-color: white;
    	padding-left: 20px;
@@ -192,13 +195,29 @@ ul .menu-item {
    	padding-top: 25px;
    	padding-bottom: 10px;
    }
+   ol blockquote{
+      color: black;
+      font-size: 15px;
+      margin-top: 10px;
+      padding-left: 20px;
+   }
+   span li{
+      padding-left: 30px;
+      color: black;
+      font-size: 15px;
+      margin-top: 5px;
+   }
+   blockquote {
+   	padding-left: 30px;
+   	padding-right: 30px;
+   }
 }
 @media (min-width: 575px){
    li {
 	  color: rgb(0, 0, 0, 255);
 	  padding-top: 7px;
 	  padding-left: 12px;
-	  font-size: 30px;
+	  font-size: 20px;
    }
    select{
 	  color: red;
@@ -249,6 +268,9 @@ ul .menu-item {
    	border-radius: 20px;
    	background-color: navy; /*RGB(0, 0, 255, 255);*/
    }
+   .download a{
+   	color: white;
+   }
    .form textarea {
    	caret-color: #2962FF;
    	font-size: 18px;
@@ -271,6 +293,22 @@ ul .menu-item {
    	padding-top: 60px;
    	padding-bottom: 20px;
    }
+   ol blockquote{
+      color: black;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 10px;
+   }
+   span li{
+      padding-left: 70px;
+      color: black;
+      font-size: 16px;
+      margin-top: 10px;
+   }
+   blockquote {
+   	padding-left: 30px;
+   	padding-right: 30px;
+   }
 }
 audio {
    	display: block;
@@ -283,9 +321,6 @@ audio {
 	border-radius: 8px;
 	cursor: pointer;
 }
-a {
-	color: white;
-}
 auth {
 	color:red;
 }
@@ -297,10 +332,6 @@ p {
 	color:black;
 	text-align: center;
 	text-indent: 20pt;
-	padding-right: 30px;
-}
-blockquote {
-	padding-left: 30px;
 	padding-right: 30px;
 }
 img {
@@ -344,17 +375,4 @@ hr {
 	align: center;
 	padding-top: 5px;
 	border-color: white;
-}
-ol li{
-   color: blue;
-}
-span li{
-   padding-left: 30px;
-   color: blue;
-}
-b{
-	color: yellow;
-}
-#title{
-	color: yellow;
 }
