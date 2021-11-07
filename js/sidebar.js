@@ -16,7 +16,7 @@ function about(){
 
 function about_developer(){
         mobileMenu.click()
-	window.open("about_developer.html"); 
+	window.open("Developer.html"); 
 }
 
 function contact(){
