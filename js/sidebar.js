@@ -1,33 +1,46 @@
-var mobileMenu = document.getElementById('Mobile-menu')
-var menu = document.getElementById('Menu')
+var mobileMenu = document.getElementById('Mobile-menu');
+var menu = document.getElementById('Menu');
 
 mobileMenu.addEventListener("click", function(){
-	menu.classList.toggle('open')
+	menu.classList.toggle('open');
 })
+//cabeçalho
 function home(){
-        mobileMenu.click()
+	mobileMenu.click()
 	window.open("index.html");
 }
 
 function about(){
-        mobileMenu.click()
+	mobileMenu.click()
 	window.open("about.html");
 }
 
 function about_developer(){
-        mobileMenu.click()
-	window.open("Developer.html"); 
+	mobileMenu.click()
+	window.open("developer.html"); 
 }
 
 function contact(){
-        mobileMenu.click()
+	mobileMenu.click()
 	window.open("contato.html");
+}
+//rodapé
+function privacy_policy(){
+	window.open("privacy_policy.html");
+}
+
+function terms(){
+	window.open("terms.html");
+}
+
+function license(){
+	window.alert("license");
 }
 
 class MobileNavbar {
   constructor(mobileMenu) {
     this.mobileMenu = document.querySelector(mobileMenu);
-    this.activeClass = "active";
+    this.activeClass = "active"
 
     this.handleClick = this.handleClick.bind(this);
   }
