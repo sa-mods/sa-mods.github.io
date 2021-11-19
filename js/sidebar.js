@@ -34,7 +34,7 @@ function terms(){
 }
 
 function license(){
-	window.alert(`LICENÇA GNU nano 5.8
+	window.alert(`
  Licença MIT
 
  Copyright (c) 2021 sa-mods
