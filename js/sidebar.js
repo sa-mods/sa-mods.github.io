@@ -34,8 +34,7 @@ function terms(){
 }
 
 function license(){
-	window.alert(`
- Licença MIT
+	window.alert(`Licença MIT
 
  Copyright (c) 2021 sa-mods
 
