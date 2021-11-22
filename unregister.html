@@ -138,10 +138,10 @@
 			}
 		</style>
 		
-		<form class="form">
+		<div class="form">
 			<input type="email" placeholder="digite seu email registrado" id="mail"/>
 			<input type="submit" id="delete" value="excluir" onclick="deletar()"/>
-		</form>
+		</div>
 		
 		<p id="copyright"></p>
 		<script>
@@ -149,7 +149,8 @@
 			var db = openDatabase("myDB", "1.0", "samods db", 2 * 1024 * 1024);
 	    
 			function unregistered(){
-	      window.alert("Seu registro foi cancelado com sucesso.A partir de agora segundo o seu consentimento não lhe enviaremos mais nenhuma nova notificação.")
+	      window.alert("Seu registro foi cancelado com sucesso.A partir de agora segundo o seu consentimento não lhe enviaremos mais nenhuma nova notificação.");
+	      window.open("index.html");
       }
 			
 			function deletar(){
