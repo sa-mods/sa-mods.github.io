@@ -33,6 +33,10 @@ function terms(){
 	window.open("terms.html");
 }
 
+function notifications(){
+	window.open("register.html");
+}
+
 function license(){
 	window.alert(`Licença MIT
 
