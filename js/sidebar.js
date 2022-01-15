@@ -34,7 +34,7 @@ function terms(){
 }
 
 function notifications(){
-	window.open("index.php");
+	window.open("register.html");
 }
 
 function license(){
