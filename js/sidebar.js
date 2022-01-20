@@ -22,7 +22,7 @@ function about_developer(){
 
 function contact(){
 	mobileMenu.click()
-	window.open("contato.html");
+	window.open("contact.html");
 }
 //rodapé
 function privacy_policy(){
